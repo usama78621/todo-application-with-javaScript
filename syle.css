@@ -1,0 +1,88 @@
+.grocery-form{
+    min-height: 80vh;
+    background: #fff;
+    max-width: 620px;
+    margin: auto;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+
+}
+.fromTodo{
+ display: grid;
+ place-items: center;
+
+}
+.title{
+  margin: 20px;
+}
+#tht{
+padding: 6px;
+  font-size: 1.5rem;
+ background-color: aquamarine;
+ border-radius: 20px;
+text-align: center;
+margin: 10px;
+}
+input{
+  width: 12rem;
+  height: 1.8rem;
+ border: 1px solid black;
+ border-radius: 10px;
+ 
+}
+  .alert {
+    margin-bottom: 1rem;
+    height: 1.35rem;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+    border-radius: 0.25rem;
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+  }
+  .alert-danger {
+    color: #721c24;
+    background: #f8d7da;
+  }
+  .alert-success {
+    color: #155724;
+    background: #d4edda;
+  }
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.submit{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  background: transparent;
+  color:  #49a6e9;
+  padding: 0.275rem 1rem;
+  letter-spacing: 0.25rem;
+  display: inline-block;
+  margin: 3rem 0;
+  font-weight: 600;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  border: 1px solid #222;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+.submit:hover {
+  color:#222;
+  background:  #49a6e9;
+}
+
+
+
+
+
+
+
+
